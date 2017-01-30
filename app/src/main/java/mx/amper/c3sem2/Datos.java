@@ -21,7 +21,7 @@ public class Datos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_datos);
-        tToast("onCreate.Datos");
+        //tToast("onCreate.Datos");
 
         //REcuerar pará,etros
         Bundle parametro = getIntent().getExtras();
@@ -64,31 +64,6 @@ public class Datos extends AppCompatActivity {
 
     }
 
-    public void onRestart() {
-        super.onRestart();
-        tToast("onRestart.Datos");
-    }
-
-    public void onResume() {
-        super.onResume();
-        tToast("onResume.Datos");
-    }
-
-    public void onPause() {
-        super.onPause();
-        tToast("onPause.Datos: bye bye!");
-
-    }
-
-    public void onStop() {
-        super.onStop();
-        tToast("onStop.Datos");
-    }
-
-    public void onDestroy() {
-        super.onStop();
-        tToast("onDestroy.Datos");
-    }
 
     private void tToast(String s) {
         Context context = getApplicationContext();

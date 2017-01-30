@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tToast("onCreate.Main");
+        //tToast("onCreate.Main");
 
         //contactos = new ArrayList<Contactos>();
 
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
-        tToast("onRestart.Main");
+        //tToast("onRestart.Main");
 
         //REcuerar pará,etros
         Bundle parametroR = getIntent().getExtras();
@@ -84,27 +84,6 @@ public class MainActivity extends AppCompatActivity {
         etEmail.setText(emailR);
         etDesc.setText(descR);
 
-    }
-
-    public void onResume() {
-        super.onResume();
-        tToast("onResume.Main");
-    }
-
-    public void onPause() {
-        super.onPause();
-        tToast("onPause.Main: bye bye!");
-
-    }
-
-    public void onStop() {
-        super.onStop();
-        tToast("onStop.Main");
-    }
-
-    public void onDestroy() {
-        super.onStop();
-        tToast("onDestroy.Main");
     }
 
     private void tToast(String s) {
