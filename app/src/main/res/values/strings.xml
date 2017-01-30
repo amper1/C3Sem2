@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">C3Sem2</string>
+
+    <string name="pnombre">nombre</string>
+    <string name="pfecnac">fecnac</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+    <string name="pdesc">desc</string>
+
+    <string name="pnombreR">nombreR</string>
+    <string name="pfecnacR">fecnacR</string>
+    <string name="ptelefonoR">telefonoR</string>
+    <string name="pemailR">emailR</string>
+    <string name="pdescR">descR</string>
+</resources>
